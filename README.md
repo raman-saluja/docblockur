@@ -1,4 +1,4 @@
-# Project Title
+# DocBlockur - An Easy to use Documentation template with clean design
 
 DocBlockur - An Easy to use Documentation template with clean design : [https://raman-saluja.github.io/docblockur/](//raman-saluja.github.io/docblockur)
 
