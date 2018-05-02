@@ -1,0 +1,116 @@
+/*
+ * ===============================
+ * Colors
+ * ===============================
+ */
+
+/*
+ * ------------------------
+ * Default
+ * ------------------------
+ */
+
+a:hover, a:active, a:focus{
+	color: #232526;
+}
+
+nav.navbar-custom{
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.docs-sidebar .doc-list-sidebar li.active > a, .docs-sidebar .doc-list-sidebar li a:hover, .docs-sidebar .doc-list-sidebar li a:active, .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #232526;
+}
+
+/*
+ * ------------------------
+ * Red Mist
+ * ------------------------
+ */
+
+body.theme-red-mist a:hover, body.theme-red-mist a:active, body.theme-red-mist a:focus{
+	color: #cb2d3e;
+}
+
+body.theme-red-mist nav.navbar-custom{
+	background: #cb2d3e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body.theme-red-mist .docs-sidebar .doc-list-sidebar li.active > a, body.theme-red-mist .docs-sidebar .doc-list-sidebar li a:hover, body.theme-red-mist .docs-sidebar .doc-list-sidebar li a:active, body.theme-red-mist .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #cb2d3e;
+}
+
+/*
+ * ------------------------
+ * Royal
+ * ------------------------
+ */
+
+
+body.theme-royal a:hover, body.theme-royal a:active, body.theme-royal a:focus{
+	color: #141E30;
+}
+
+body.theme-royal nav.navbar-custom{
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body.theme-royal .docs-sidebar .doc-list-sidebar li.active > a, body.theme-royal .docs-sidebar .doc-list-sidebar li a:hover, body.theme-royal .docs-sidebar .doc-list-sidebar li a:active, body.theme-royal .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #141E30;
+}
+
+
+/*
+ * ------------------------
+ * Deap Sea
+ * ------------------------
+ */
+
+
+body.theme-deap-sea a:hover, body.theme-deap-sea a:active, body.theme-deap-sea a:focus{
+	color: #2C3E50;
+}
+
+body.theme-deap-sea nav.navbar-custom{
+	background: #2C3E50;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+body.theme-deap-sea .docs-sidebar .doc-list-sidebar li.active > a, body.theme-deap-sea .docs-sidebar .doc-list-sidebar li a:hover, body.theme-deap-sea .docs-sidebar .doc-list-sidebar li a:active, body.theme-deap-sea .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #2C3E50;
+}
+
+
+
+/*
+ * ------------------------
+ * Selenium
+ * ------------------------
+ */
+
+
+body.theme-selenium a:hover, body.theme-selenium a:active, body.theme-selenium a:focus{
+	color: #3C3B3F;
+}
+
+body.theme-selenium nav.navbar-custom{
+	background: #3C3B3F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body.theme-selenium .docs-sidebar .doc-list-sidebar li.active > a, body.theme-selenium .docs-sidebar .doc-list-sidebar li a:hover, body.theme-selenium .docs-sidebar .doc-list-sidebar li a:active, body.theme-selenium .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #3C3B3F;
+}
+
+

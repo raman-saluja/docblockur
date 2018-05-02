@@ -1,0 +1,290 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+	font-weight: normal;
+}
+
+h4, h5, h6{
+	font-weight: 300;
+}
+
+a{
+	color: #333;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus{
+	color: #cb2d3e;
+	text-decoration: none;
+}
+
+nav.navbar-custom{
+	background: #cb2d3e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: .8rem 2rem;
+}
+
+
+@media(min-width: 992px){
+
+	nav.navbar-custom .nav-link{
+		padding-left: .95rem !important;
+		padding-right: .95rem !important;
+	}
+
+}
+
+.header{
+	padding-top: 140px;
+	padding-bottom: 80px;
+	text-align: center;
+	background-color: #eee;
+	margin-bottom: 50px;
+}
+
+.footer{
+	margin-top: 50px;
+}
+
+.docs-sidebar{
+	position: relative;
+	z-index: 9;
+	background-color: #fff;
+	max-height: 550px;
+	overflow-y: auto;
+	margin-left: 60px;
+	transition: .5s;
+	top: 0;
+}
+
+.docs-sidebar-fixed{
+	position: fixed;
+	top: 100px;
+	transition: .5s;
+}
+
+.docs-sidebar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: none;
+	background-color: transparent;
+	border-radius: 15px;
+}
+
+.docs-sidebar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: transparent;
+}
+
+.docs-sidebar::-webkit-scrollbar-thumb{
+	background-color: transparent;
+	transition: .5s;
+}
+
+
+.docs-sidebar:hover::-webkit-scrollbar-thumb
+{
+	background-color: #eee;
+	transition: .5s;
+	border-radius: 15px;
+}
+
+.docs-sidebar .doc-list-sidebar{
+	position: relative;
+	display: block;
+	list-style: none;
+}
+
+.docs-sidebar .doc-list-sidebar ul.sub-menu{
+	margin-left: 15px;
+	list-style: none;
+}
+
+.docs-sidebar .doc-list-sidebar li a{
+	color: #333;
+	padding: .65rem 1.45rem;
+	font-weight: 200;
+	border-left: 1px solid #eee;
+	display: block;
+}
+
+.docs-sidebar .doc-list-sidebar li.active > a, .docs-sidebar .doc-list-sidebar li a:hover, .docs-sidebar .doc-list-sidebar li a:active, .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #cb2d3e;
+}
+
+@media(max-width: 768px){
+
+	.docs-sidebar-fixed{
+	    min-height: 581px;
+	    top: 65px;
+	    right: 0;
+	    z-index: 9999;
+	    height: 100%;
+	    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+	}
+
+}
+
+
+.section{
+	margin: 55px 0;
+}
+
+.section .section-title{
+	font-weight: 300;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.section .section-content{
+	padding-top: 15px;
+
+}
+
+.sub-title{
+	padding: 15px 0;
+}
+
+
+.btn{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.dc-list li{
+	padding: 3px 0;
+}
+
+.list-themes img{
+	box-shadow: 0 0 55px rgba(0,0,0,0.1);
+}
+
+
+/*
+ * ===============================
+ * Colors
+ * ===============================
+ */
+
+/*
+ * ------------------------
+ * Default
+ * ------------------------
+ */
+
+a:hover, a:active, a:focus{
+	color: #232526;
+}
+
+nav.navbar-custom{
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.docs-sidebar .doc-list-sidebar li.active > a, .docs-sidebar .doc-list-sidebar li a:hover, .docs-sidebar .doc-list-sidebar li a:active, .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #232526;
+}
+
+/*
+ * ------------------------
+ * Red Mist
+ * ------------------------
+ */
+
+body.theme-red-mist a:hover, body.theme-red-mist a:active, body.theme-red-mist a:focus{
+	color: #cb2d3e;
+}
+
+body.theme-red-mist nav.navbar-custom{
+	background: #cb2d3e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body.theme-red-mist .docs-sidebar .doc-list-sidebar li.active > a, body.theme-red-mist .docs-sidebar .doc-list-sidebar li a:hover, body.theme-red-mist .docs-sidebar .doc-list-sidebar li a:active, body.theme-red-mist .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #cb2d3e;
+}
+
+/*
+ * ------------------------
+ * Royal
+ * ------------------------
+ */
+
+
+body.theme-royal a:hover, body.theme-royal a:active, body.theme-royal a:focus{
+	color: #141E30;
+}
+
+body.theme-royal nav.navbar-custom{
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body.theme-royal .docs-sidebar .doc-list-sidebar li.active > a, body.theme-royal .docs-sidebar .doc-list-sidebar li a:hover, body.theme-royal .docs-sidebar .doc-list-sidebar li a:active, body.theme-royal .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #141E30;
+}
+
+
+/*
+ * ------------------------
+ * Deap Sea
+ * ------------------------
+ */
+
+
+body.theme-deap-sea a:hover, body.theme-deap-sea a:active, body.theme-deap-sea a:focus{
+	color: #2C3E50;
+}
+
+body.theme-deap-sea nav.navbar-custom{
+	background: #2C3E50;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+body.theme-deap-sea .docs-sidebar .doc-list-sidebar li.active > a, body.theme-deap-sea .docs-sidebar .doc-list-sidebar li a:hover, body.theme-deap-sea .docs-sidebar .doc-list-sidebar li a:active, body.theme-deap-sea .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #2C3E50;
+}
+
+
+
+/*
+ * ------------------------
+ * Selenium
+ * ------------------------
+ */
+
+
+body.theme-selenium a:hover, body.theme-selenium a:active, body.theme-selenium a:focus{
+	color: #3C3B3F;
+}
+
+body.theme-selenium nav.navbar-custom{
+	background: #3C3B3F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body.theme-selenium .docs-sidebar .doc-list-sidebar li.active > a, body.theme-selenium .docs-sidebar .doc-list-sidebar li a:hover, body.theme-selenium .docs-sidebar .doc-list-sidebar li a:active, body.theme-selenium .docs-sidebar .doc-list-sidebar li a:focus{
+	border-color: #3C3B3F;
+}
+
+
